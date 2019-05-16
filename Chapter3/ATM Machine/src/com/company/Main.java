@@ -57,7 +57,7 @@ public class Main
         boo1 = balance > 0;
         System.out.println("positive account balance: "+ boo1);
         System.out.println(balance + " dollars left ");
-        System.out.println("any remaining balance will be redeposited into your account");
+        System.out.println("Thank You. Any remaining balance will be redeposited/deducted into/from your account");
 
         //adding up total amount of convenience fees charged to customer
         convenienceFee = .1 * (hundredsEntered + twentiesEntered + tensEntered + fivesEntered + onesEntered);
