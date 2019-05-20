@@ -10,6 +10,7 @@ public class Main
         java.util.Random random1 = new java.util.Random();
         System.out.println("Press 1 to start");
         int startGame = userInput2.nextInt();
+        System.out.println("First to 3 wins, wins!\n");
         int compRock = 0;
         int compPaper = 1;
         int compScissors = 2;
@@ -21,8 +22,7 @@ public class Main
 
         while (startGame == 1 && wins < 3 && losses < 3)
         {
-            System.out.println("press 0 for Rock, 1 for Paper, or 2 for Scissors!");
-            System.out.println("First to 3 wins, wins!");
+            System.out.println("press 0 for Rock, 1 for Paper, or 2 for Scissors!\n");
             int userChoice = userInput.nextInt();
             int compChoice = random1.nextInt(3);
 
@@ -32,21 +32,24 @@ public class Main
 
                 if (compChoice == compRock)
                 {
-                    System.out.println("Computer chose Rock, it's a tie!.");
+                    System.out.println("Computer chose Rock, it's a tie!.\n");
                 }
 
 
                 else if (compChoice == compScissors)
                 {
-                    System.out.println("Computer chose scissors. You win!");
+                    System.out.println("Computer chose scissors. You win!\n");
                     ++wins;
                 }
 
                 else if (compChoice == compPaper)
                 {
-                    System.out.println("Computer chose paper. You lose!");
+                    System.out.println("Computer chose paper. You lose!\n");
                     losses++;
                 }
+
+                System.out.println("wins: " + wins);
+                System.out.println("losses: " + losses + ("\n___________"));
             }
 
 
@@ -56,21 +59,24 @@ public class Main
 
                 if (compChoice == compRock)
                 {
-                    System.out.println("Computer chose Rock, You win!.");
+                    System.out.println("Computer chose Rock, You win!\n");
                     wins++;
                 }
 
 
                 if (compChoice == compScissors)
                 {
-                    System.out.println("Computer chose scissors. You lose!");
+                    System.out.println("Computer chose scissors. You lose!\n");
                     ++losses;
                 }
 
                 if (compChoice == compPaper)
                 {
-                    System.out.println("Computer chose paper. It's a tie!");
+                    System.out.println("Computer chose paper. It's a tie!\n");
                 }
+
+                System.out.println("wins: " + wins);
+                System.out.println("losses: " + losses + ("\n___________"));
 
             }
 
@@ -80,21 +86,24 @@ public class Main
 
                 if (compChoice == compRock)
                 {
-                    System.out.println("Computer chose Rock, You lose!.");
+                    System.out.println("Computer chose Rock, You lose!.\n");
                     losses++;
                 }
 
 
                 if (compChoice == compScissors)
                 {
-                    System.out.println("Computer chose scissors. It's a tie!");
+                    System.out.println("Computer chose scissors. It's a tie!\n");
                 }
 
                 if (compChoice == compPaper)
                 {
-                    System.out.println("Computer chose paper. You win!");
+                    System.out.println("Computer chose paper. You win!\n");
                     wins++;
                 }
+
+                System.out.println("wins: " + wins);
+                System.out.println("losses: " + losses + ("\n___________"));
 
             }
 
