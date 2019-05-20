@@ -70,7 +70,6 @@ public class Main
                 if (compChoice == compPaper)
                 {
                     System.out.println("Computer chose paper. It's a tie!");
-                    losses++;
                 }
 
             }
