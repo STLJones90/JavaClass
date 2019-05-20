@@ -7,7 +7,7 @@ public class Main
     {
 
         java.util.Scanner userInput = new java.util.Scanner(System.in);
-        ;
+
         System.out.println("What is your name?");
         String name = userInput.next();
         System.out.println("Hello, " + name + "! Try to guess the computer's number. You only have 5 guesses!");
