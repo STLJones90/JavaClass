@@ -25,6 +25,6 @@ public class Main
 
         if (num1==num2);
         System.out.println(num2);
-        
+
     }
 }
