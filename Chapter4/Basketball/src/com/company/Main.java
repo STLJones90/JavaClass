@@ -171,7 +171,7 @@ public class Main
             }
 
         }
-        while (player1Score <= 21 && player2Score <= 21);
+        while (player1Score <= 21 &&  player2Score <= 21);
         {
             if (player1Score>=21)
             {
