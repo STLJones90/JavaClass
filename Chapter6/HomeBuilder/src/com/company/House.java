@@ -1,0 +1,30 @@
+package com.company;
+
+public class House
+{
+    private int roomCount;
+
+    public House(int roomCount)
+    {
+        this.roomCount = roomCount;
+    }
+
+    public int getRoomCount()
+    {
+        return roomCount;
+    }
+
+    public void setRoomCount(int roomCount)
+    {
+        this.roomCount = roomCount;
+    }
+
+
+
+
+
+
+
+}
+
+
